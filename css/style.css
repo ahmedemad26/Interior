@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Pops-B';
+    src: url(../webfonts/Montserrat-Black.ttf);
+}
+@font-face {
+    font-family: 'Pops-B';
+    src: url(../webfonts/Montserrat-Regular.ttf);
+}
+:root{
+    --heading-font:'Pops-B';
+    --body-font : 'Pops-R';
+    --min--color : #fff ;
+    --secondary-color : #000 ;
+    --border-color : #000 ;
+    --border-bs-color :#f4f4f4;
+}
+body{
+    color: #343434;
+    font-family: var(--heading-font);
+    /* padding-top: 10px; */
+}
+li{
+    list-style: none;
+}
+h1,
+h2,
+h3,
+.h1,
+.h2,
+.h3 {
+    font-family: var(--heading-font);
+}
+.design h5::after{
+    position: absolute;
+    content: "";
+    width: 95%;
+    height: 2px;
+    background-color: #DADADA;
+    top: 190%;
+    left: 2%;
+}
+.test{
+    padding: 20px;
+    width: 400px;
+    height: 350px;
+    background-color: #1F1F1F;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+}
+.test h2::after{
+    content: "“";
+    width: 60px;
+    height: 180px;
+    position: absolute;
+    color: white;
+}
+.test img{
+    width: 65px;
+    height: 65px;
+}
+.test .one{
+    color: #fff;
+    font-weight: 500;
+    text-align: left;
+}
+.test .two{
+    font-size: 10px;
+    color: #fff;
+    text-align: left;
+}
+.test_2{
+    padding: 20px;
+    width: 400px;
+    height: 360px;
+    background-color: #1F1F1F;
+    top: 30%;
+    left: 25%;
+    color: #fff;
+}
+.test_2 h2::after{
+    content: "“";
+    width: 60px;
+    height: 180px;
+    position: absolute;
+    color: white;
+}
